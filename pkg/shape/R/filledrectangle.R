@@ -40,4 +40,5 @@ filledrectangle <- function(mid=c(0,0), wx=1, wy=wx,
 
     polygon(xy[,1],xy[,2],border=lcol,col=NA, lwd=lwd,...)
   }
+  invisible(list(xy = xy))
 }
